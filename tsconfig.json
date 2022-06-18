@@ -1,0 +1,15 @@
+// Doc: https://webpack.js.org/guides/typescript/
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es2015",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
