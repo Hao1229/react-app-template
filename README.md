@@ -2,25 +2,17 @@
 
 Quickly Setup React's project.
 
----
-
 ## Environment
 
 ![node version](https://img.shields.io/badge/node--version->=14.17.5-lightgrey?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=success)
-
----
 
 ## Framework
 
 ![react](https://img.shields.io/badge/react->=18.1.0-lightgrey?style=for-the-badge&logo=react&labelColor=20232A)
 
----
-
 ## Bundle Tool
 
 ![webpack](https://img.shields.io/badge/webacpk->=5.73.0-lightgrey?style=for-the-badge&logo=webpack&labelColor=5299c8)
-
----
 
 ## Dev Tool
 
@@ -28,14 +20,10 @@ Quickly Setup React's project.
 ![prettier](https://img.shields.io/badge/prettier-2.6.2-lightgrey?style=for-the-badge&logo=prettier&labelColor=1a2b34)
 ![typescript](https://img.shields.io/badge/typescript->=4.7.3-lightgrey?style=for-the-badge&logo=typescript&labelColor=3178c6&logoColor=fff)
 
----
-
 ## Git Tool
 
 ![husky](https://img.shields.io/badge/husky->=8.0.1-lightgrey?style=for-the-badge&labelColor=42b983)
 ![commitizen](https://img.shields.io/badge/commitizen->=4.2.4-lightgrey?style=for-the-badge&labelColor=303030)
-
----
 
 ## How To Start
 
