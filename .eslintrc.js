@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'airbnb-typescript',
     'plugin:prettier/recommended',
     'plugin:react/jsx-runtime',
   ],
@@ -16,6 +17,7 @@ module.exports = {
     },
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: './tsconfig.json',
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
@@ -44,4 +46,12 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
   },
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: './webpack.config.ts',
+      },
+    },
+  },
+  ignorePatterns: ['.eslintrc.js'],
 };

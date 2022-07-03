@@ -10,6 +10,12 @@
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    /*
+     * 可根據專案需求擴充、修改
+     */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
